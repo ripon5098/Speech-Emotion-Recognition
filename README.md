@@ -12,7 +12,7 @@
 </p>
 
 <p align="justify">Speech emotion recognition (SER) is a fascinating and rapidly evolving field within the broader domain of natural language processing (NLP) and human-computer interaction. It focuses on the development of algorithms and models capable of identifying and understanding the emotional content conveyed in spoken language. This technology holds significant promise for a wide range of applications, from improving customer service interactions to enhancing mental health support systems.
-<img src = "image/voice_of_child.webp" width="700" height="350">
+<img src = "image/voice_of_child.webp" alt="Logo">
 </p>
 <h2 id="about_data"> About Dataset </h2>
 <h4 id="context"> Context </h4>
@@ -42,7 +42,10 @@ LSTM(128) | 0.7182 | 0.5560
 LSTM(CNN) | 0.5895 | 0.5469
 
 <br/>
-![s1](https://user-images.githubusercontent.com/39909903/91179186-0798df80-e69b-11ea-824a-f2f65a7c082a.jpg)
+<a href="#">
+    <img src="https://user-images.githubusercontent.com/39909903/91179186-0798df80-e69b-11ea-824a-f2f65a7c082a.jpg" alt="Logo">
+  </a>
+
 <h2 id="deployment"> Model Deployment </h2>
 <p align="justify">I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in 
   
