@@ -1,6 +1,5 @@
 # Speech-Emotion-Recognition
 
-
 <p align="center">
 <img src="https://img.shields.io/badge/Made%20by%20-Md. Minhaj Uddin-blue">
 <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
@@ -13,9 +12,7 @@
 </p>
 
 <p align="justify">Speech emotion recognition (SER) is a fascinating and rapidly evolving field within the broader domain of natural language processing (NLP) and human-computer interaction. It focuses on the development of algorithms and models capable of identifying and understanding the emotional content conveyed in spoken language. This technology holds significant promise for a wide range of applications, from improving customer service interactions to enhancing mental health support systems.
-<a href="#">
-    <img src="https://i.imgur.com/f1TqviT.jpeg" alt="Logo">
-  </a>
+<img src = "image/voice_of_child.webp" width="700" height="350">
 </p>
 <h2 id="about_data"> About Dataset </h2>
 <h4 id="context"> Context </h4>
@@ -30,6 +27,9 @@ These datasets contain almost ```12261``` records combined. Details can be found
 <h2 id="model"> Used Models </h2>
 <p align="justify">
 In this project I used several models like Sequential with LSTM(256), Sequential with LSTM(128), Sequential with LSTM(CNN) but considering everything I deployed sequential with LSTM(128) for obtaining the audio features more precisely.
+<a href="#">
+    <img src="https://i.imgur.com/f1TqviT.jpeg" alt="Logo">
+  </a>
 </p>
 <h2 id="performance"> Models Performance </h2>
 
