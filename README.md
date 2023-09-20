@@ -22,9 +22,7 @@ Speech is the most natural way of expressing ourselves as humans. It is only nat
 <h4 id="content"> Content </h4>
 <p align="justify">
 Here 4 most popular datasets in English: Crema, Ravdess, Savee and Tess. Each of them contains audio in .wav format with some main labels.<br/>
-These datasets contain almost 
-  
-  ```12261``` records combined. Details can be found in ```data``` folder.<br/>
+These datasets contain almost `12261` records combined. Details can be found in `data` folder.<br/>
 </p>
 <h2 id="model"> Used Models </h2>
 <p align="justify">
@@ -47,8 +45,8 @@ LSTM(CNN) | 0.5895 | 0.5469
   </a>
 
 <h2 id="deployment"> Model Deployment </h2>
-<p align="justify">I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in 
-  
-  ```app``` folder or 
-  
-  [here](https://huggingface.co/spaces/minhaj-ripon/Speech_Emotion_Detector). </p><br/>
+I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in 
+
+`app` folder or 
+
+[here](https://huggingface.co/spaces/minhaj-ripon/Speech_Emotion_Detector). <br/>
