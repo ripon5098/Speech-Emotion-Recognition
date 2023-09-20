@@ -40,6 +40,8 @@ Models | Accuracy | Val_acc
 LSTM(256) | 0.7735 | 0.5442
 LSTM(128) | 0.7182 | 0.5560
 LSTM(CNN) | 0.5895 | 0.5469
+
+<br/>
 ![s1](https://user-images.githubusercontent.com/39909903/91179186-0798df80-e69b-11ea-824a-f2f65a7c082a.jpg)
 <h2 id="deployment"> Model Deployment </h2>
 <p align="justify">I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in 
