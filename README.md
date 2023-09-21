@@ -47,6 +47,4 @@ LSTM(CNN) | 0.5895 | 0.5469
 <h2 id="deployment"> Model Deployment </h2>
 I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in 
 
-`app` folder or 
-
-[here](https://huggingface.co/spaces/minhaj-ripon/Speech_Emotion_Detector). <br/>
+`app` folder or [here](https://huggingface.co/spaces/minhaj-ripon/Speech_Emotion_Detector). <br/>
