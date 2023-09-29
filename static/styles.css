@@ -1,0 +1,130 @@
+.head {
+    background-color: #b14376;
+    /* Change to your desired container background color */
+    /* border-radius: 10px; */
+    /* background-image: url('microphone.jpg'); */
+    /* Replace 'your-image.jpg' with the path to your image */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 5ch;
+}
+
+.body {
+    background-image: url('Emotions.jpg');
+    /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    overflow: hidden;
+}
+
+.container {
+    background-color: #b14376;
+    /* Change to your desired container background color */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* .about {
+    background-color: #b14376;
+    /* background-image: url('microphone.jpg'); */
+/* Replace 'your-image.jpg' with the path to your image */
+/* background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 50px;
+    justify-content: normal;
+    align-items: normal;
+    display: flex;
+    overflow: hidden;
+} */
+
+/* Style for the square box */
+.about-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    /* Adjust the margin as needed */
+}
+
+/* Style for the button-like link */
+.about-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hover effect for the button-like link */
+.about-button:hover {
+    background-color: #0056b3;
+    font-family: "Gill Sans", sans-serif;
+    /* Change color on hover */
+}
+
+h1,
+h2,
+audio,
+button {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Define your theme styles here */
+/* Define your theme styles here */
+h1 {
+    text-align: center;
+    color: #d0d30a;
+    /* Change the text color */
+}
+
+h2 {
+    text-align: center;
+    color: #d0d30a;
+    /* Change the text color */
+}
+
+audio {
+    width: 100%;
+    /* Make the audio player width 100% of the container */
+}
+
+button {
+    background-color: #007BFF;
+    /* Change the button background color */
+    color: #b15d7d;
+    /* Change the button text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:disabled {
+    background-color: #808086;
+    /* Change the disabled button background color */
+    cursor: not-allowed;
+}

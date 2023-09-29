@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Emotion Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="head">
+        <h1>Speech Emotion Recognition</h1> <br />
+    </div>
+    <div class="body">
+        <div class="container">
+            <div style="height: 100px; width: 100px;">
+                <label for="text"><b>Emotion</b></label> <br />
+                {{ emotion_label }} <br /> <br />
+                <label for="text"><b>Emoji</b></label> <br />
+                {{ emoji }}
+            </div>
+            <!-- Emotion: {{ emotion_label }} <br />
+            Emoji: {{ emoji }} -->
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>
