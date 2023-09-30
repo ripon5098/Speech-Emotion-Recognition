@@ -1,8 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 from flask_debugtoolbar import DebugToolbarExtension
 from gradio_client import Client
-import pyaudio
-import wave
 import os
 
 app = Flask(__name__)
