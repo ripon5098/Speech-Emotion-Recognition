@@ -114,6 +114,12 @@ def predict_emotions(input_audio):
         return None
 
 
+def api_response():
+    from flask import jsonify
+    if request.method == 'POST':
+        return jsonify(**request.json)
+
+
 @app.route('/result')
 def result():
     # Retrieve the emotion_label from the context or set a default value
