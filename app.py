@@ -69,6 +69,7 @@ def index():
     # return 'Hello, World!'
 
 
+@app.route('/', methods=['GET', 'POST'])
 def predict_emotions(input_audio):
     # Print current working directory
     # print("Current Working Directory:", os.getcwd())
