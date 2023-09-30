@@ -94,7 +94,8 @@ def predict_emotions(input_audio):
             # str(input_audio),
             # input_audio.filename
             abs_file_path,
-            ""
+            "",
+            api_name="/predict"
             # "/predict"
         )
 
