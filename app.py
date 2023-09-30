@@ -84,7 +84,7 @@ def predict_emotions(input_audio):
     if os.path.isfile(abs_file_path):
         print("File Path:", input_audio.filename)
         client = Client(
-            "https://minhaj-ripon-speech-emotion-detector.hf.space/")
+            "https://minhaj-ripon-speech-emotion-detector.hf.space/", api_name=None)
         result = client.predict(
             # str (filepath or URL to file) in 'File' Audio component
             # "https://github.com/gradio-app/gradio/raw/main/test/test_files/audio_sample.wav",
