@@ -146,5 +146,5 @@ def about():
 
 
 if __name__ == '__main__':
-    app.debug = True  # Enable debug mode
+    app.debug = True
     app.run()
