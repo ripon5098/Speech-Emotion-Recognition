@@ -52,3 +52,11 @@ I deployed the model to HuggingFace Spaces Gradio App. The implementation can be
 
 https://github.com/ripon5098/Speech-Emotion-Recognition/assets/104689719/9aa8d46e-492d-40cb-ba80-1037fa4e206a
 
+<h2 id="web_deployment"> Web Deployment </h2>
+Deployed a Flask App built to take descprition and show the genres as output. Check 
+
+`flask ` branch. The website is live [here](https://speech-emotion-recognition-u7jt.onrender.com)
+
+
+https://github.com/ripon5098/Speech-Emotion-Recognition/assets/104689719/c01194d5-bc5a-4dc5-a941-5d0ea510fd79
+
