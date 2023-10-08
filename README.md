@@ -48,3 +48,7 @@ LSTM(CNN) | 0.5895 | 0.5469
 I deployed the model to HuggingFace Spaces Gradio App. The implementation can be found in 
 
 `app` folder or [here](https://huggingface.co/spaces/minhaj-ripon/Speech_Emotion_Detector). <br/>
+
+
+https://github.com/ripon5098/Speech-Emotion-Recognition/assets/104689719/9aa8d46e-492d-40cb-ba80-1037fa4e206a
+
